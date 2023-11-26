@@ -1,6 +1,6 @@
 ekf_localization_node.cpp merely runs the runs the ekf_navigation_node.
 # dependencies
-git clone -b kinetic-devel https://github.com/cra-ros-pkg/robot_localization.git
+git submodule add -b melodic-devel https://github.com/cra-ros-pkg/robot_localization.git
 Publishers/Subscribers:
 
   Subscribers:

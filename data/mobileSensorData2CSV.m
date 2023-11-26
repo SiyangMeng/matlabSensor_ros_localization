@@ -61,6 +61,7 @@ for i = 1:height(tt)
 end
 fclose(d);
 %%
+% [lat,long,alt, v,course,hacc]
 e=fopen('pos.csv','w');
 tt = Position.Timestamp;
 for i = 1:height(tt)
